@@ -7,7 +7,7 @@
         <h1 class="h2">Product</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
             <a href="{{ route('products.index') }}">
-                <button type="button" class="btn btn-sm btn-outline-primary">
+                <button type="button" class="btn btn-success">
                     <span data-feather="list"></span>
                     List
                 </button>

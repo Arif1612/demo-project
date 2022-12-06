@@ -28,7 +28,7 @@
             <div class="btn-toolbar mb-2 mb-md-0">
 
                 <a href="{{ route('products.create') }}">
-                    <button type="button" class="btn btn-sm btn-outline-primary">
+                    <button type="button" class="btn btn-success">
                         <span data-feather="plus"></span>
                         Add New
                     </button>

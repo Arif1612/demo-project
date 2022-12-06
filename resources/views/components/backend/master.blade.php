@@ -17,10 +17,18 @@
     <div class="container">
         <!-- Logout-->
         <div class="row pt-3">
-            <div class="col-6">
-                <p>You are loged In</p>
+            <div class="col-4">
+                <a href="{{ route('dashboard') }}">
+                    <button type="button" class="btn btn-success">
+                        <span data-feather="plus"></span>
+                        Dashboard
+                    </button>
+                </a>
             </div>
-            <div class="col-6">
+            <div class="col-4">
+                <h3>You are loged In</h3>
+            </div>
+            <div class="col-4">
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">

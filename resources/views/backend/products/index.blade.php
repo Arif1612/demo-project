@@ -1,4 +1,9 @@
 <x-backend.master>
+
+    @if (session('message'))
+        <span class="text-success">{{ session('message') }}</span>
+    @endif
+
     <div class="container">
         <table class="table">
             <thead>
@@ -28,6 +33,7 @@
                 @endforeach
             </tbody>
         </table>
+
         {{ $products->links() }}
 
 
